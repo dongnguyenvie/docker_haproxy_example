@@ -1,0 +1,1 @@
+docker run --name dongnguyenvie_haproxy -v $(pwd)/haproxy.cfg:/usr/local/etc/haproxy/haproxy.cfg -p 8080:80 -p 443:443 haproxy:latest
